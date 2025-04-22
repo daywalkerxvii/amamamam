@@ -1,0 +1,7 @@
+tank_designs = {
+	icon = GFX_goal_generic_production
+	priority = 0
+	visible = {
+		always = yes
+	}
+}

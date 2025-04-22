@@ -1,0 +1,54 @@
+﻿l_english:
+  # Decision Category
+  division_templates: "Division Templates"
+  division_templates_desc: "Unlock meta division templates for infantry, motorized, mechanized, and armored forces, designed for optimal combat performance in defense, offense, and combined-arms warfare."
+
+  # --- Piyade Tümenleri ---
+
+  division_template_garrison: "Garrison (10W)"
+  division_template_garrison_desc: "Unlocks a 10-width Garrison division for efficient resistance suppression in occupied territories."
+  template_garrison_10w_tt: "Unlocks a 10-width Garrison division template with 6 cavalry battalions and a military police support company.\n§GAdvantages:§!\n- High suppression reduces resistance effectively.\n- Low manpower and equipment cost.\n- Ideal for occupation duties and small defensive fronts.\n§RDisadvantages:§!\n- Weak combat stats, unsuitable for frontline fighting.\n- Limited versatility due to minimal support.\n- Vulnerable to any serious attack."
+
+  division_template_infantry_15w: "Infantry (20W)"
+  division_template_infantry_15w_desc: "Unlocks a 20-width Infantry division for robust defensive frontline holding."
+  template_infantry_20w_tt: "Unlocks a 20-width Infantry division template with 9 infantry battalions, 1 artillery brigade, and support engineer, artillery, and recon companies.\n§GAdvantages:§!\n- High organization and defense for holding lines.\n- Artillery boosts soft attack against infantry.\n- Standard width optimizes combat stacking.\n§RDisadvantages:§!\n- Limited mobility, vulnerable to fast units.\n- Moderate equipment cost for artillery.\n- Weak piercing against armored divisions."
+
+  division_template_standard_infantry_21w: "Standard Infantry (20W)"
+  division_template_standard_infantry_21w_desc: "Unlocks a 20-width Standard Infantry division for offensive pushes with strong artillery support."
+  template_standard_infantry_20w_tt: "Unlocks a 20-width Standard Infantry division template with 7 infantry battalions, 2 artillery brigades, and support engineer, artillery, and signal companies.\n§GAdvantages:§!\n- High soft attack for breaking infantry lines.\n- Signal company speeds up planning for coordinated attacks.\n- Standard width optimizes combat stacking.\n§RDisadvantages:§!\n- Higher equipment cost due to artillery.\n- Low mobility, vulnerable to encirclements.\n- Limited piercing against tanks."
+
+  division_template_anti_tank_infantry: "Anti-Tank Infantry (20W)"
+  division_template_anti_tank_infantry_desc: "Unlocks a 20-width Anti-Tank Infantry division to counter enemy armor and infantry."
+  template_anti_tank_infantry_20w_tt: "Unlocks a 20-width Anti-Tank Infantry division template with 7 infantry battalions, 1 anti-tank brigade, 1 artillery brigade, and support engineer, recon, and anti-air companies.\n§GAdvantages:§!\n- High piercing to counter tanks.\n- Anti-air protects against air attacks.\n- Standard width optimizes combat stacking.\n§RDisadvantages:§!\n- High equipment cost for anti-tank and artillery.\n- Low mobility, vulnerable to flanking.\n- Moderate organization limits prolonged fights."
+
+  division_template_space_marines: "Space Marines (40W)"
+  division_template_space_marines_desc: "Unlocks a 40-width Space Marines division with heavy tanks for unmatched armor and combat power."
+  template_space_marines_40w_tt: "Unlocks a 40-width Space Marines division template with 11 infantry battalions, 3 heavy tank battalions, and support engineer, recon, artillery, and maintenance companies.\n§GAdvantages:§!\n- Extremely high armor, nearly unpierceable by most divisions.\n- Strong soft attack and defense for all terrains.\n- Maintenance company improves tank reliability.\n§RDisadvantages:§!\n- Very high production cost for heavy tanks.\n- Requires advanced tech, delaying deployment.\n- Large width may cause overstacking in narrow fronts."
+
+  division_template_coastal_defence: "Coastal Defense (20W)"
+  division_template_coastal_defence_desc: "Unlocks a 20-width Coastal Defense division to protect ports against naval invasions."
+  template_coastal_defence_20w_tt: "Unlocks a 20-width Coastal Defense division template with 8 infantry battalions, 1 anti-tank brigade, and support engineer, artillery, and anti-air companies.\n§GAdvantages:§!\n- Strong defense with anti-tank to counter invasions.\n- Anti-air counters naval bombers.\n- Standard width optimizes combat stacking.\n§RDisadvantages:§!\n- Limited mobility, unsuitable for offensive operations.\n- Moderate equipment cost for anti-tank and artillery.\n- Vulnerable to overwhelming assaults."
+
+  # --- Motorize ve Mekanize Tümenler ---
+
+  division_template_motorized_infantry: "Motorized Infantry Division (20W)"
+  division_template_motorized_infantry_desc: "Unlocks a 20-width Motorized Infantry division for rapid offensive maneuvers and encirclements."
+  template_motorized_infantry_20w_tt: "Unlocks a 20-width Motorized Infantry division template with 7 motorized battalions, 1 motorized artillery brigade, and support engineer, recon, and signal companies.\n§GAdvantages:§!\n- High speed for quick encirclements and flanking.\n- Motorized artillery boosts soft attack.\n- Standard width optimizes combat stacking.\n§RDisadvantages:§!\n- Higher equipment cost (trucks, artillery).\n- Vulnerable to anti-tank units and rough terrain.\n- Lower organization than infantry."
+
+  division_template_mechanized_infantry_21w: "Mechanized Infantry Division (30W)"
+  division_template_mechanized_infantry_21w_desc: "Unlocks a 30-width Mechanized Infantry division for versatile combined-arms warfare."
+  template_mechanized_infantry_30w_tt: "Unlocks a 30-width Mechanized Infantry division template with 9 mechanized battalions, 1 anti-tank brigade, 1 motorized artillery brigade, and support engineer, anti-air, recon, and logistics companies.\n§GAdvantages:§!\n- High hardness and armor from mechanized units.\n- Logistics company reduces supply consumption.\n- Balanced firepower for soft and hard targets.\n§RDisadvantages:§!\n- Very high production cost for mechanized equipment.\n- Requires advanced tech, delaying deployment.\n- Large width may cause overstacking."
+
+  # --- Zırhlı Tümenler ---
+
+  division_template_armored: "Armored Division (20W)"
+  division_template_armored_desc: "Unlocks a 20-width Armored division for early-game breakthroughs and exploitation."
+  template_armored_20w_tt: "Unlocks a 20-width Armored division template with 6 light tank battalions, 4 motorized battalions, and support engineer, maintenance, recon, and signal companies.\n§GAdvantages:§!\n- High breakthrough and speed for early offensives.\n- Signal company speeds up planning.\n- Standard width optimizes combat stacking.\n§RDisadvantages:§!\n- High production cost for tanks and trucks.\n- Vulnerable to anti-tank and air attacks.\n- Light tanks weaken mid-to-late game."
+
+  division_template_light_tank: "Light Tank Division (20W)"
+  division_template_light_tank_desc: "Unlocks a 20-width Light Tank division for rapid breakthroughs and soft-target elimination."
+  template_light_tank_20w_tt: "Unlocks a 20-width Light Tank division template with 5 light tank battalions, 4 motorized battalions, 1 motorized artillery brigade, and support engineer, recon, maintenance, and signal companies.\n§GAdvantages:§!\n- High speed and soft attack for early-to-mid game.\n- Motorized artillery enhances firepower.\n- Standard width optimizes combat stacking.\n§RDisadvantages:§!\n- High production cost for tanks and artillery.\n- Vulnerable to anti-tank units and air attacks.\n- Limited effectiveness against heavier armor."
+
+  division_template_modernised_armored_division: "Modernised Armored Division (40W)"
+  division_template_modernised_armored_division_desc: "Unlocks a 40-width Modernised Armored division for late-game combined-arms dominance."
+  template_modernised_armored_40w_tt: "Unlocks a 40-width Modernised Armored division template with 7 medium tank battalions, 6 mechanized battalions, 1 medium SP artillery brigade, 1 medium SP anti-air brigade, and support engineer, field hospital, logistics, light tank recon, and maintenance companies.\n§GAdvantages:§!\n- Exceptional breakthrough, armor, and firepower.\n- Comprehensive support ensures sustainability.\n- Strong against all target types.\n§RDisadvantages:§!\n- Extremely high production and resource cost.\n- Requires advanced technologies, limiting early use.\n- Large width may cause overstacking in narrow fronts."

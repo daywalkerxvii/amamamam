@@ -1,0 +1,464 @@
+division_templates = {
+
+    # --- Piyade Tümenleri ---
+
+    division_template_garrison = {
+        icon = generic_infantry_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 10
+
+        available = {
+            has_tech = infantry_weapons1
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Garrison (10W)"
+                regiments = {
+                    cavalry = { x = 0 y = 0 }
+                    cavalry = { x = 0 y = 1 }
+                    cavalry = { x = 0 y = 2 }
+                    cavalry = { x = 1 y = 0 }
+                    cavalry = { x = 1 y = 1 }
+                    cavalry = { x = 1 y = 2 }
+                }
+                support = {
+                    military_police = { x = 0 y = 0 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_garrison_10w_tt"
+        }
+    }
+
+    division_template_infantry_15w = {
+        icon = generic_infantry_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 10
+
+        available = {
+            has_tech = artillery1
+            has_tech = infantry_weapons1
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Infantry (20W)"
+                regiments = {
+                    infantry = { x = 0 y = 0 }
+                    infantry = { x = 0 y = 1 }
+                    infantry = { x = 0 y = 2 }
+                    infantry = { x = 1 y = 0 }
+                    infantry = { x = 1 y = 1 }
+                    infantry = { x = 1 y = 2 }
+                    infantry = { x = 2 y = 0 }
+                    infantry = { x = 2 y = 1 }
+                    infantry = { x = 2 y = 2 }
+                    artillery_brigade = { x = 3 y = 0 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    artillery = { x = 0 y = 1 }
+                    recon = { x = 0 y = 2 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_infantry_20w_tt"
+        }
+    }
+
+    division_template_standard_infantry_21w = {
+        icon = generic_infantry_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 10
+
+        available = {
+            has_tech = infantry_weapons1
+            has_tech = artillery1
+            has_tech = tech_engineers
+            has_tech = tech_signal_company
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Standard Infantry (20W)"
+                regiments = {
+                    infantry = { x = 0 y = 0 }
+                    infantry = { x = 0 y = 1 }
+                    infantry = { x = 0 y = 2 }
+                    infantry = { x = 1 y = 0 }
+                    infantry = { x = 1 y = 1 }
+                    infantry = { x = 1 y = 2 }
+                    infantry = { x = 2 y = 0 }
+                    artillery_brigade = { x = 2 y = 1 }
+                    artillery_brigade = { x = 2 y = 2 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    artillery = { x = 0 y = 1 }
+                    signal = { x = 0 y = 2 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_standard_infantry_20w_tt"
+        }
+    }
+
+    division_template_anti_tank_infantry = {
+        icon = generic_infantry_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 8
+
+        available = {
+            has_tech = infantry_weapons1
+            has_tech = interwar_antitank
+            has_tech = tech_engineers
+            has_tech = tech_recon
+            has_tech = interwar_antiair
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Anti-Tank Infantry (20W)"
+                regiments = {
+                    infantry = { x = 0 y = 0 }
+                    infantry = { x = 0 y = 1 }
+                    infantry = { x = 0 y = 2 }
+                    infantry = { x = 1 y = 0 }
+                    infantry = { x = 1 y = 1 }
+                    infantry = { x = 1 y = 2 }
+                    infantry = { x = 2 y = 0 }
+                    anti_tank_brigade = { x = 2 y = 1 }
+                    artillery_brigade = { x = 2 y = 2 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    recon = { x = 0 y = 1 }
+                    anti_air = { x = 0 y = 2 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_anti_tank_infantry_20w_tt"
+        }
+    }
+
+    division_template_space_marines = {
+        icon = generic_infantry_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 7
+
+        available = {
+            has_tech = infantry_weapons1
+            has_tech = basic_heavy_tank_chassis
+            has_tech = tech_engineers
+            has_tech = tech_recon
+            has_tech = artillery1
+            has_tech = tech_maintenance_company
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Space Marines (40W)"
+                regiments = {
+                    infantry = { x = 0 y = 0 }
+                    infantry = { x = 0 y = 1 }
+                    infantry = { x = 0 y = 2 }
+                    infantry = { x = 1 y = 0 }
+                    infantry = { x = 1 y = 1 }
+                    infantry = { x = 1 y = 2 }
+                    infantry = { x = 2 y = 0 }
+                    infantry = { x = 2 y = 1 }
+                    infantry = { x = 2 y = 2 }
+                    infantry = { x = 3 y = 0 }
+                    infantry = { x = 3 y = 1 }
+                    heavy_armor = { x = 4 y = 0 }
+                    heavy_armor = { x = 4 y = 1 }
+                    heavy_armor = { x = 4 y = 2 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    recon = { x = 0 y = 1 }
+                    artillery = { x = 0 y = 2 }
+                    maintenance_company = { x = 0 y = 3 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_space_marines_40w_tt"
+        }
+    }
+
+    division_template_coastal_defence = {
+        icon = generic_defence
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 1
+
+        available = {
+            has_tech = infantry_weapons1
+            has_tech = tech_engineers
+            has_tech = artillery1
+            has_tech = interwar_antitank
+            has_tech = interwar_antiair
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Coastal Defense (20W)"
+                regiments = {
+                    infantry = { x = 0 y = 0 }
+                    infantry = { x = 0 y = 1 }
+                    infantry = { x = 0 y = 2 }
+                    infantry = { x = 1 y = 0 }
+                    infantry = { x = 1 y = 1 }
+                    infantry = { x = 1 y = 2 }
+                    infantry = { x = 2 y = 0 }
+                    infantry = { x = 2 y = 1 }
+                    anti_tank_brigade = { x = 2 y = 2 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    artillery = { x = 0 y = 1 }
+                    anti_air = { x = 0 y = 2 }
+                }
+                priority = 1
+            }
+            custom_effect_tooltip = "template_coastal_defence_20w_tt"
+        }
+    }
+
+    # --- Motorize ve Mekanize Tümenler ---
+
+    division_template_motorized_infantry = {
+        icon = generic_motorized_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 10
+
+        available = {
+            has_tech = infantry_weapons1
+            has_tech = tech_trucks
+            has_tech = tech_engineers
+            has_tech = tech_recon
+            has_tech = artillery1
+            has_tech = tech_signal_company
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Motorized Infantry Division (20W)"
+                regiments = {
+                    motorized = { x = 0 y = 0 }
+                    motorized = { x = 0 y = 1 }
+                    motorized = { x = 0 y = 2 }
+                    motorized = { x = 1 y = 0 }
+                    motorized = { x = 1 y = 1 }
+                    motorized = { x = 1 y = 2 }
+                    motorized = { x = 2 y = 0 }
+                    motorized_artillery = { x = 2 y = 1 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    recon = { x = 0 y = 1 }
+                    signal = { x = 0 y = 2 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_motorized_infantry_20w_tt"
+        }
+    }
+
+    division_template_mechanized_infantry_21w = {
+        icon = generic_motorized_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 10
+
+        available = {
+            has_tech = mechanised_infantry
+            has_tech = interwar_antitank
+            has_tech = tech_engineers
+            has_tech = interwar_antiair
+            has_tech = tech_recon
+            has_tech = tech_logistics_company
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Mechanized Infantry Division (30W)"
+                regiments = {
+                    mechanized = { x = 0 y = 0 }
+                    mechanized = { x = 0 y = 1 }
+                    mechanized = { x = 0 y = 2 }
+                    mechanized = { x = 1 y = 0 }
+                    mechanized = { x = 1 y = 1 }
+                    mechanized = { x = 1 y = 2 }
+                    mechanized = { x = 2 y = 0 }
+                    mechanized = { x = 2 y = 1 }
+                    mechanized = { x = 2 y = 2 }
+                    anti_tank_brigade = { x = 3 y = 0 }
+                    motorized_artillery = { x = 3 y = 1 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    anti_air = { x = 0 y = 1 }
+                    recon = { x = 0 y = 2 }
+                    logistics_company = { x = 0 y = 3 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_mechanized_infantry_30w_tt"
+        }
+    }
+
+    # --- Zırhlı Tümenler ---
+
+    division_template_armored = {
+        icon = generic_armor_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 10
+
+        available = {
+            has_tech = basic_light_tank_chassis
+            has_tech = tech_trucks
+            has_tech = tech_engineers
+            has_tech = tech_maintenance_company
+            has_tech = tech_recon
+            has_tech = tech_signal_company
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Armored Division (20W)"
+                regiments = {
+                    light_armor = { x = 0 y = 0 }
+                    light_armor = { x = 0 y = 1 }
+                    light_armor = { x = 0 y = 2 }
+                    light_armor = { x = 1 y = 0 }
+                    light_armor = { x = 1 y = 1 }
+                    light_armor = { x = 1 y = 2 }
+                    motorized = { x = 2 y = 0 }
+                    motorized = { x = 2 y = 1 }
+                    motorized = { x = 2 y = 2 }
+                    motorized = { x = 3 y = 0 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    maintenance_company = { x = 0 y = 1 }
+                    recon = { x = 0 y = 2 }
+                    signal = { x = 0 y = 3 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_armored_20w_tt"
+        }
+    }
+
+    division_template_light_tank = {
+        icon = generic_armor_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 9
+
+        available = {
+            has_tech = basic_light_tank_chassis
+            has_tech = tech_trucks
+            has_tech = tech_engineers
+            has_tech = tech_recon
+            has_tech = tech_maintenance_company
+            has_tech = tech_signal_company
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Light Tank Division (20W)"
+                regiments = {
+                    light_armor = { x = 0 y = 0 }
+                    light_armor = { x = 0 y = 1 }
+                    light_armor = { x = 0 y = 2 }
+                    light_armor = { x = 1 y = 0 }
+                    light_armor = { x = 1 y = 1 }
+                    motorized = { x = 2 y = 0 }
+                    motorized = { x = 2 y = 1 }
+                    motorized = { x = 2 y = 2 }
+                    motorized_artillery = { x = 3 y = 0 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    recon = { x = 0 y = 1 }
+                    maintenance_company = { x = 0 y = 2 }
+                    signal = { x = 0 y = 3 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_light_tank_20w_tt"
+        }
+    }
+
+    division_template_modernised_armored_division = {
+        icon = generic_modern_armor_action
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        priority = 10
+
+        available = {
+            has_tech = basic_medium_tank_chassis
+            has_tech = mechanised_infantry
+            has_tech = tech_engineers
+            has_tech = tech_field_hospital
+            has_tech = tech_logistics_company
+            has_tech = tech_recon
+            has_tech = basic_light_tank_chassis
+            has_tech = tech_maintenance_company
+        }
+
+        complete_effect = {
+            division_template = {
+                name = "Modernised Armored Division (40W)"
+                regiments = {
+                    medium_sp_artillery_brigade = { x = 0 y = 0 }
+                    medium_sp_aa_brigade = { x = 0 y = 1 }
+                    medium_armor = { x = 1 y = 0 }
+                    medium_armor = { x = 1 y = 1 }
+                    medium_armor = { x = 1 y = 2 }
+                    medium_armor = { x = 2 y = 0 }
+                    medium_armor = { x = 2 y = 1 }
+                    medium_armor = { x = 2 y = 2 }
+                    medium_armor = { x = 3 y = 0 }
+                    medium_armor = { x = 3 y = 1 }
+                    mechanized = { x = 4 y = 0 }
+                    mechanized = { x = 4 y = 1 }
+                    mechanized = { x = 4 y = 2 }
+                    mechanized = { x = 5 y = 0 }
+                    mechanized = { x = 5 y = 1 }
+                    mechanized = { x = 5 y = 2 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    field_hospital = { x = 0 y = 1 }
+                    logistics_company = { x = 0 y = 2 }
+                    light_tank_recon = { x = 0 y = 3 }
+                    maintenance_company = { x = 0 y = 4 }
+                }
+                priority = 2
+            }
+            custom_effect_tooltip = "template_modernised_armored_40w_tt"
+        }
+    }
+}

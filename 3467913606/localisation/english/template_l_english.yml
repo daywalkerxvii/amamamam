@@ -1,0 +1,42 @@
+﻿l_english:
+plane_designs:0 "Plane Designs"
+ plane_designs_desc:0 "Select from various plane design templates to quickly add specialized planes to your arsenal."
+ # Basic Fighter
+ aircraft_template_fighter:0 "Standard Fighter Design"
+ aircraft_template_fighter_desc:0 "A basic fighter aircraft designed for air superiority missions.\n\n§YSpecifications:§!\n- Light machine guns for air combat\n- Dual engines for reliable performance\n- Self-sealing fuel tanks and drop tanks\n\n§GAdvantages:§!\n§G+§! Low production cost\n§G+§! Good air superiority capability\n§G+§! Decent operational range\n\n§RDisadvantages:§!\n§R-§! Limited firepower against bombers\n§R-§! Vulnerable to advanced fighters"
+
+ # Advanced Fighter
+ aircraft_template_advanced_fighter:0 "Advanced Fighter Design"
+ aircraft_template_advanced_fighter_desc:0 "An improved fighter with enhanced firepower and survivability.\n\n§YSpecifications:§!\n- Heavy machine guns for increased air combat effectiveness\n- High-performance engine\n- Improved protection with armor plating\n- Extended range capability\n\n§GAdvantages:§!\n§G+§! Superior firepower against enemy aircraft\n§G+§! Enhanced survivability\n§G+§! Good maneuverability\n\n§RDisadvantages:§!\n§R-§! Higher production cost\n§R-§! Requires more advanced technology"
+
+ # Super Fighter
+ aircraft_template_super_fighter:0 "Elite Fighter Design"
+ aircraft_template_super_fighter_desc:0 "A cutting-edge fighter aircraft with cannons and advanced systems.\n\n§YSpecifications:§!\n- Aircraft cannons as primary armament\n- Heavy machine guns as secondary weapons\n- State-of-the-art engine\n- Maximum protection and range enhancements\n\n§GAdvantages:§!\n§G+§! Devastating firepower against all aircraft types\n§G+§! Excellent survivability in combat\n§G+§! Superior performance characteristics\n\n§RDisadvantages:§!\n§R-§! High production and maintenance costs\n§R-§! Requires advanced industrial capacity\n§R-§! Resource intensive"
+
+ # Jet Fighter
+ aircraft_template_jet_fighter:0 "Jet Fighter Design"
+ aircraft_template_jet_fighter_desc:0 "A revolutionary jet-powered fighter with unmatched speed.\n\n§YSpecifications:§!\n- Advanced cannons for air superiority\n- Jet engine propulsion\n- Enhanced protection systems\n- Extended operational range\n\n§GAdvantages:§!\n§G+§! Exceptional speed and climb rate\n§G+§! Powerful weapons systems\n§G+§! Technological edge over propeller aircraft\n\n§RDisadvantages:§!\n§R-§! Very high production cost\n§R-§! High fuel consumption\n§R-§! Requires cutting-edge technologies"
+
+ # Close Air Support
+ aircraft_template_cas:0 "Tactical Ground Support Aircraft"
+ aircraft_template_cas_desc:0 "An aircraft specialized for supporting ground troops.\n\n§YSpecifications:§!\n- Bomb racks for ground attack missions\n- Defensive turret for protection\n- Dive brakes for precision bombing\n\n§GAdvantages:§!\n§G+§! Effective against ground units\n§G+§! Precision attack capability\n§G+§! Some defensive capability\n\n§RDisadvantages:§!\n§R-§! Limited effectiveness in air combat\n§R-§! Vulnerable to enemy fighters\n§R-§! Moderate operational range"
+
+ # Advanced CAS
+ aircraft_template_advanced_cas:0 "Advanced Ground Attack Aircraft"
+ aircraft_template_advanced_cas_desc:0 "A sophisticated ground attack aircraft with improved payload capacity.\n\n§YSpecifications:§!\n- Primary bomb racks with additional bomb bays\n- High-performance engine\n- Precision dive bombing capability\n- Armored protection\n\n§GAdvantages:§!\n§G+§! Heavy bombing capability against ground targets\n§G+§! Enhanced survivability with armor plating\n§G+§! Superior ground attack effectiveness\n\n§RDisadvantages:§!\n§R-§! Higher production cost\n§R-§! Poor maneuverability in air combat\n§R-§! Resource intensive"
+
+ # Tactical Bomber
+ aircraft_template_tactical_bomber:0 "Medium Range Bomber"
+ aircraft_template_tactical_bomber_desc:0 "A versatile bomber designed for tactical operations.\n\n§YSpecifications:§!\n- Medium bomb bay for substantial payload\n- Basic bombing sights for improved accuracy\n- Dual engines for reliable performance\n- Self-sealing fuel tanks for survivability\n\n§GAdvantages:§!\n§G+§! Good bombing capability\n§G+§! Decent operational range\n§G+§! Versatile mission profile\n\n§RDisadvantages:§!\n§R-§! Limited defensive capabilities\n§R-§! Vulnerable to fighter interception\n§R-§! Moderate production cost"
+
+ # Heavy Tactical Bomber
+ aircraft_template_heavy_tactical_bomber:0 "Advanced Tactical Bomber"
+ aircraft_template_heavy_tactical_bomber_desc:0 "An enhanced tactical bomber with greater payload and protection.\n\n§YSpecifications:§!\n- Large bomb bay for maximum tactical payload\n- Advanced bombing sights for precision\n- Powerful dual engines\n- Heavy machine gun defensive turret\n\n§GAdvantages:§!\n§G+§! Heavy bombing capability\n§G+§! Improved defensive armament\n§G+§! Better bombing accuracy\n\n§RDisadvantages:§!\n§R-§! High production cost\n§R-§! Larger target for enemy fighters\n§R-§! Higher resource requirements"
+
+ # Strategic Bomber
+ aircraft_template_strategic_bomber:0 "Long Range Strategic Bomber"
+ aircraft_template_strategic_bomber_desc:0 "A heavy bomber designed for deep strikes into enemy territory.\n\n§YSpecifications:§!\n- Large bomb bay for strategic bombing missions\n- Four engines for extended range\n- Basic bombing sights\n- Defensive turrets and self-sealing fuel tanks\n\n§GAdvantages:§!\n§G+§! Long operational range\n§G+§! High bombing payload\n§G+§! Strategic bombing capability\n\n§RDisadvantages:§!\n§R-§! Very high production cost\n§R-§! Slow and vulnerable to fighters\n§R-§! Significant resource investment"
+
+ # Heavy Strategic Bomber
+ aircraft_template_heavy_strategic_bomber:0 "Elite Strategic Bomber"
+ aircraft_template_heavy_strategic_bomber_desc:0 "An advanced strategic bomber with maximum payload and protection.\n\n§YSpecifications:§!\n- Large bomb bay with enhanced capacity\n- Advanced bombing sights for precision strategic bombing\n- Four high-performance engines\n- Multiple defensive turrets for maximum protection\n\n§GAdvantages:§!\n§G+§! Devastating bombing capability\n§G+§! Extended operational range\n§G+§! Superior defensive armament\n\n§RDisadvantages:§!\n§R-§! Extremely high production cost\n§R-§! Heavy resource consumption\n§R-§! Requires advanced industrial capacity"

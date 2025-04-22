@@ -1,0 +1,48 @@
+﻿l_english:
+    # Garrison Division (10W)
+    division_template_garrison: "Garrison Division (10W)"
+    division_template_garrison_description: "A division designed for defensive duties and garrisoning key positions."
+    division_template_garrison_advantages: "Low cost, strong defensive capabilities, easy to deploy."
+    division_template_garrison_disadvantages: "Very slow, limited offensive power, vulnerable to mobile forces."
+
+    # Infantry Division (15W)
+    division_template_infantry_15w: "Infantry Division (15W)"
+    division_template_infantry_15w_description: "A versatile infantry division suitable for holding ground and long-term operations."
+    division_template_infantry_15w_advantages: "Strong defense, moderate offensive capabilities, good for holding large areas."
+    division_template_infantry_15w_disadvantages: "Limited mobility, lacks heavy support weapons."
+
+    # Standard Infantry Division (21W)
+    division_template_standard_infantry_21w: "Standard Infantry Division (21W)"
+    division_template_standard_infantry_21w_description: "A balanced division with artillery support and good defensive abilities."
+    division_template_standard_infantry_21w_advantages: "Good balance of infantry and artillery, strong defense, moderate offense."
+    division_template_standard_infantry_21w_disadvantages: "Low mobility, vulnerable to air and mechanized units."
+
+    # Motorized Infantry Division
+    division_template_motorized_infantry: "Motorized Infantry Division"
+    division_template_motorized_infantry_description: "Fast-moving infantry supported by trucks, ideal for rapid deployment."
+    division_template_motorized_infantry_advantages: "High mobility, good for fast response and wide deployment."
+    division_template_motorized_infantry_disadvantages: "Weaker defense and lack of heavy artillery support."
+
+    # Mechanized Infantry Division (21W)
+    division_template_mechanized_infantry_21w: "Mechanized Infantry Division (21W)"
+    division_template_mechanized_infantry_21w_description: "A powerful division using mechanized infantry and anti-tank brigades for a mix of speed and firepower."
+    division_template_mechanized_infantry_21w_advantages: "Excellent mobility and firepower, anti-tank support."
+    division_template_mechanized_infantry_21w_disadvantages: "High cost, complex logistics, vulnerable to air attacks."
+
+    # Armored Division
+    division_template_armored: "Armored Division"
+    division_template_armored_description: "A division built around light tanks and motorized infantry for high offensive capability."
+    division_template_armored_advantages: "Strong attack power, high durability with tanks."
+    division_template_armored_disadvantages: "Expensive to maintain, low speed, vulnerable in certain terrains."
+
+    # Modernized Armored Division (35W)
+    division_template_modernised_armored_division: "Modernized Armored Division (35W)"
+    division_template_modernised_armored_division_description: "A modernized armored division with cutting-edge tanks and mechanized support."
+    division_template_modernised_armored_division_advantages: "Exceptional firepower and mobility, advanced technology."
+    division_template_modernised_armored_division_disadvantages: "Very expensive, requires advanced tech and maintenance."
+
+    # Coastal Defense Division (12W)
+    division_template_coastal_defence: "Coastal Defense Division (12W)"
+    division_template_coastal_defence_description: "A division designed for defending coastal areas, with a focus on infantry and engineers."
+    division_template_coastal_defence_advantages: "Ideal for coastal defense, strong static defense capabilities."
+    division_template_coastal_defence_disadvantages: "Very slow, vulnerable to mechanized forces and air attacks."

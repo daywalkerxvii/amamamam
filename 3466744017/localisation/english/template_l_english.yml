@@ -1,0 +1,44 @@
+﻿l_english:
+ # Tank Design Decision Category
+ tank_designs:0 "Tank Designs"
+ tank_designs_desc:0 "Select from various tank design templates to quickly add specialized vehicles to your arsenal."
+ 
+ # Light Tank Designs
+ tank_template_1934_light:0 "1934 Light Tank Design"
+ tank_template_1934_light_desc:0 "A basic light tank design from 1934.\n\n§GAdvantages:§!\n- Low production cost\n- Good mobility\n- Quick to produce\n\n§RDisadvantages:§!\n- Weak armor\n- Limited firepower\n- Small two-man turret"
+ 
+ tank_template_1936_light:0 "1936 Light Tank Design"
+ tank_template_1936_light_desc:0 "An improved light tank design from 1936 with a three-man turret and better communication equipment.\n\n§GAdvantages:§!\n- Improved firepower\n- Three-man turret\n- Basic radio equipment\n\n§RDisadvantages:§!\n- Still relatively light armor\n- Higher fuel consumption"
+ 
+ tank_template_1941_light:0 "1941 Light Tank Design"
+ tank_template_1941_light_desc:0 "An advanced light tank design from 1941 with improved automatic cannon.\n\n§GAdvantages:§!\n- Auto-cannon for anti-infantry\n- Advanced radio equipment\n- Good balance of speed and protection\n\n§RDisadvantages:§!\n- Limited anti-tank capability\n- High production cost for a light tank"
+ 
+ tank_template_recon_light:0 "Reconnaissance Light Tank Design"
+ tank_template_recon_light_desc:0 "A specialized reconnaissance light tank with extra equipment for battlefield operations.\n\n§GAdvantages:§!\n- Advanced radio equipment\n- Dozer blade for clearing obstacles\n- Smokescreen capability\n- Extended operational range\n\n§RDisadvantages:§!\n- Expensive to produce\n- Vulnerable to anti-tank weapons"
+ 
+ # Medium Tank Designs
+ tank_template_1938_medium:0 "1938 Medium Tank Design"
+ tank_template_1938_medium_desc:0 "A basic medium tank design from 1938.\n\n§GAdvantages:§!\n- Good balance of armor and mobility\n- Improved firepower over light tanks\n- Two-man turret\n\n§RDisadvantages:§!\n- Basic radio equipment\n- Riveted armor is vulnerable to spalling\n- Moderate production cost"
+ 
+ tank_template_1938_medium_td:0 "1938 Medium Tank Destroyer Design"
+ tank_template_1938_medium_td_desc:0 "A medium tank destroyer design from 1938 with high-velocity cannon.\n\n§GAdvantages:§!\n- High penetration gun\n- Low profile fixed superstructure\n- Good frontal armor\n\n§RDisadvantages:§!\n- Limited turret traverse\n- Poor anti-infantry capability\n- Vulnerable from sides and rear"
+ 
+ tank_template_1943_medium:0 "1943 Medium Tank Design"
+ tank_template_1943_medium_desc:0 "An advanced medium tank design from 1943 with numerous improvements.\n\n§GAdvantages:§!\n- High-velocity cannon for excellent anti-tank capability\n- Three-man turret for better crew efficiency\n- Sloped armor for increased protection\n- Wet ammo storage for reduced explosion risk\n\n§RDisadvantages:§!\n- Complex and expensive to produce\n- High industrial requirements"
+ 
+ tank_template_1943_amphibious_medium:0 "1943 Amphibious Medium Tank Design"
+ tank_template_1943_amphibious_medium_desc:0 "A specialized amphibious medium tank for water crossing operations.\n\n§GAdvantages:§!\n- Amphibious capability for river and shore landings\n- Good medium cannon\n- Three-man turret\n- Wet ammo storage\n\n§RDisadvantages:§!\n- Slightly reduced firepower compared to standard medium tank\n- Complex drive system requires more maintenance"
+ 
+ tank_template_medium_flame:0 "Medium Flame Tank Design"
+ tank_template_medium_flame_desc:0 "A specialized flamethrower tank based on medium chassis. Requires 'By Blood Alone' DLC and Flame Tank technology research.\n\n§GAdvantages:§!\n- Devastating against infantry and fortifications\n- Psychological warfare effect\n- Dozer blade for clearing obstacles\n\n§RDisadvantages:§!\n- Very low armor protection\n- One-man turret limits effectiveness\n- Vulnerable fuel tanks\n- No anti-tank capability"
+ 
+ # Heavy Tank Designs
+ tank_template_1940_heavy:0 "1940 Heavy Tank Design"
+ tank_template_1940_heavy_desc:0 "An improved heavy tank design from 1940.\n\n§GAdvantages:§!\n- Heavy cannon with excellent firepower\n- Three-man turret\n- Strong armor protection\n- Advanced radio equipment\n\n§RDisadvantages:§!\n- Slow speed and poor mobility\n- High fuel consumption\n- Expensive and time-consuming to produce"
+ 
+ tank_template_1943_heavy:0 "1943 Heavy Tank Design"
+ tank_template_1943_heavy_desc:0 "An advanced heavy tank design from 1943 with massive firepower.\n\n§GAdvantages:§!\n- Extremely powerful heavy cannon\n- Nearly impenetrable frontal armor with sloped design\n- Advanced protection features (wet ammo storage)\n- Smokescreen capability\n\n§RDisadvantages:§!\n- Very slow and difficult to transport\n- Extreme production and resource costs\n- High fuel consumption\n- Mechanical reliability issues"
+ 
+ # Experimental Models
+ tank_template_super_heavy_prototype:0 "Super Heavy Tank Prototype"
+ tank_template_super_heavy_prototype_desc:0 "

@@ -1,0 +1,475 @@
+tank_designs = {
+    # --- 1934 Light Tank Model ---
+    tank_template_1934_light = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = basic_light_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "1934 Light Tank"
+                type = light_tank_chassis_1
+                parent_version = 0
+                archetype = light_tank_chassis
+                modules = {
+                    main_armament_slot = tank_small_cannon
+                    turret_type_slot = tank_light_two_man_tank_turret
+                    suspension_type_slot = tank_bogie_suspension
+                    armor_type_slot = tank_riveted_armor
+                    engine_type_slot = tank_gasoline_engine
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 2
+                    tank_nsb_armor_upgrade = 3
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = light_tank_chassis_1
+                amount = 1
+                variant_name = "1934 Light Tank"
+            }
+        }
+    }
+    
+    # --- 1936 Light Tank Model ---
+    tank_template_1936_light = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = improved_light_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "1936 Light Tank"
+                type = light_tank_chassis_2
+                parent_version = 0
+                archetype = light_tank_chassis
+                modules = {
+                    main_armament_slot = tank_small_cannon_2
+                    turret_type_slot = tank_light_three_man_tank_turret
+                    suspension_type_slot = tank_bogie_suspension
+                    armor_type_slot = tank_riveted_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_radio_1
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 2
+                    tank_nsb_armor_upgrade = 4
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = light_tank_chassis_2
+                amount = 1
+                variant_name = "1936 Light Tank"
+            }
+        }
+    }
+    
+    # --- 1941 Light Tank Model ---
+    tank_template_1941_light = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = advanced_light_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "1941 Light Tank"
+                type = light_tank_chassis_3
+                parent_version = 0
+                archetype = light_tank_chassis
+                modules = {
+                    main_armament_slot = tank_auto_cannon_2
+                    turret_type_slot = tank_light_three_man_tank_turret
+                    suspension_type_slot = tank_bogie_suspension
+                    armor_type_slot = tank_riveted_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_radio_2
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 5
+                    tank_nsb_armor_upgrade = 5
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = light_tank_chassis_3
+                amount = 1
+                variant_name = "1941 Light Tank"
+            }
+        }
+    }
+    
+    # --- Reconnaissance Light Tank (Advanced Chassis) ---
+    tank_template_recon_light = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = advanced_light_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Reconnaissance Light Tank"
+                type = light_tank_chassis_3
+                parent_version = 0
+                archetype = light_tank_chassis
+                modules = {
+                    main_armament_slot = tank_small_cannon_2
+                    turret_type_slot = tank_light_three_man_tank_turret
+                    suspension_type_slot = tank_bogie_suspension
+                    armor_type_slot = tank_riveted_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_radio_2
+                    special_type_slot_2 = tank_dozer_blade
+                    special_type_slot_3 = tank_smokescreen
+                    special_type_slot_4 = tank_fuel_drum
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 5
+                    tank_nsb_armor_upgrade = 5
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = light_tank_chassis_3
+                amount = 1
+                variant_name = "Reconnaissance Light Tank"
+            }
+        }
+    }
+    
+    # --- 1938 Medium Tank ---
+    tank_template_1938_medium = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = basic_medium_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "1938 Medium Tank"
+                type = medium_tank_chassis_1
+                parent_version = 0
+                archetype = medium_tank_chassis
+                modules = {
+                    main_armament_slot = tank_small_cannon_2
+                    turret_type_slot = tank_medium_two_man_tank_turret
+                    suspension_type_slot = tank_bogie_suspension
+                    armor_type_slot = tank_riveted_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_radio_1
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 3
+                    tank_nsb_armor_upgrade = 4
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = medium_tank_chassis_1
+                amount = 1
+                variant_name = "1938 Medium Tank"
+            }
+        }
+    }
+    
+    # --- 1938 Medium Tank Destroyer ---
+    tank_template_1938_medium_td = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = basic_medium_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "1938 Medium Tank Destroyer"
+                type = medium_tank_destroyer_chassis_1
+                parent_version = 0
+                archetype = medium_tank_destroyer_chassis
+                modules = {
+                    main_armament_slot = tank_high_velocity_cannon
+                    turret_type_slot = tank_medium_fixed_superstructure_turret
+                    suspension_type_slot = tank_bogie_suspension
+                    armor_type_slot = tank_riveted_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_radio_1
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 3
+                    tank_nsb_armor_upgrade = 4
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = medium_tank_destroyer_chassis_1
+                amount = 1
+                variant_name = "1938 Medium Tank Destroyer"
+            }
+        }
+    }
+    
+    # --- 1943 Medium Tank ---
+    tank_template_1943_medium = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = advanced_medium_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "1943 Medium Tank"
+                type = medium_tank_chassis_3
+                parent_version = 0
+                archetype = medium_tank_chassis
+                modules = {
+                    main_armament_slot = tank_high_velocity_cannon_2
+                    turret_type_slot = tank_medium_three_man_tank_turret
+                    suspension_type_slot = tank_torsion_bar_suspension
+                    armor_type_slot = tank_welded_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_radio_2
+                    special_type_slot_2 = tank_sloped_armor
+                    special_type_slot_3 = tank_smokescreen
+                    special_type_slot_4 = tank_wet_ammo_storage
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 17
+                    tank_nsb_armor_upgrade = 6
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = medium_tank_chassis_3
+                amount = 1
+                variant_name = "1943 Medium Tank"
+            }
+        }
+    }
+    
+    # --- 1943 Amphibious Medium Tank ---
+    tank_template_1943_amphibious_medium = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = advanced_medium_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "1943 Amphibious Medium Tank"
+                type = medium_tank_chassis_3
+                parent_version = 0
+                archetype = medium_tank_chassis
+                modules = {
+                    main_armament_slot = tank_medium_cannon_2
+                    turret_type_slot = tank_medium_three_man_tank_turret
+                    suspension_type_slot = tank_torsion_bar_suspension
+                    armor_type_slot = tank_welded_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_radio_2
+                    special_type_slot_2 = tank_amphibious_drive
+                    special_type_slot_3 = tank_smokescreen
+                    special_type_slot_4 = tank_wet_ammo_storage
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 17
+                    tank_nsb_armor_upgrade = 6
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = medium_tank_chassis_3
+                amount = 1
+                variant_name = "1943 Amphibious Medium Tank"
+            }
+        }
+    }
+    
+    # --- Medium Flame Tank ---
+    tank_template_medium_flame = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = improved_medium_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Medium Flame Tank"
+                type = medium_tank_chassis_2
+                parent_version = 0
+                archetype = medium_tank_chassis
+                modules = {
+                    main_armament_slot = tank_flamethrower
+                    turret_type_slot = tank_light_one_man_tank_turret
+                    suspension_type_slot = tank_bogie_suspension
+                    armor_type_slot = tank_riveted_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_dozer_blade
+                    special_type_slot_4 = tank_fuel_drum
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 8
+                    tank_nsb_armor_upgrade = 0
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = medium_tank_chassis_2
+                amount = 1
+                variant_name = "Medium Flame Tank"
+            }
+        }
+    }
+    
+    # --- 1940 Heavy Tank ---
+    tank_template_1940_heavy = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = improved_heavy_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "1940 Heavy Tank"
+                type = heavy_tank_chassis_2
+                parent_version = 0
+                archetype = heavy_tank_chassis
+                modules = {
+                    main_armament_slot = tank_heavy_cannon_2
+                    turret_type_slot = tank_heavy_three_man_tank_turret
+                    suspension_type_slot = tank_torsion_bar_suspension
+                    armor_type_slot = tank_welded_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_radio_2
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 11
+                    tank_nsb_armor_upgrade = 7
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = heavy_tank_chassis_2
+                amount = 1
+                variant_name = "1940 Heavy Tank"
+            }
+        }
+    }
+    
+    # --- 1943 Heavy Tank ---
+    tank_template_1943_heavy = {
+        icon = generic_tank
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        
+        available = {
+            has_tech = advanced_heavy_tank_chassis
+        }
+        
+        visible = {
+            has_dlc = "No Step Back"
+        }
+        
+        complete_effect = {
+            create_equipment_variant = {
+                name = "1943 Heavy Tank"
+                type = heavy_tank_chassis_3
+                parent_version = 0
+                archetype = heavy_tank_chassis
+                modules = {
+                    main_armament_slot = tank_heavy_cannon_3
+                    turret_type_slot = tank_heavy_three_man_tank_turret
+                    suspension_type_slot = tank_torsion_bar_suspension
+                    armor_type_slot = tank_welded_armor
+                    engine_type_slot = tank_gasoline_engine
+                    special_type_slot_1 = tank_radio_2
+                    special_type_slot_2 = tank_sloped_armor
+                    special_type_slot_3 = tank_smokescreen
+                    special_type_slot_4 = tank_wet_ammo_storage
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 14
+                    tank_nsb_armor_upgrade = 9
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = heavy_tank_chassis_3
+                amount = 1
+                variant_name = "1943 Heavy Tank"
+            }
+        }
+    }
+}

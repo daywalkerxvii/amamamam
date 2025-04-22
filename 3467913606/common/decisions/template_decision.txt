@@ -1,0 +1,392 @@
+plane_designs = {
+
+    # Basic Fighter (Meta)
+    aircraft_template_fighter = {
+        icon = generic_air
+        cost = 25
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = basic_small_airframe
+            has_tech = aa_lmg
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Fighter"
+                type = small_plane_airframe_1
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = light_mg_4x
+                    engine_type_slot = engine_2_2x
+                    special_type_slot_1 = self_sealing_fuel_tanks_small
+                    special_type_slot_2 = drop_tanks
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = small_plane_airframe_1
+                amount = 1
+                variant_name = "Fighter"
+            }
+        }
+    }
+
+    # Advanced Fighter (Meta)
+    aircraft_template_advanced_fighter = {
+        icon = generic_air
+        cost = 30
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = improved_small_airframe
+            has_tech = aa_hmg
+            has_tech = survivability_studies
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Advanced Fighter"
+                type = small_plane_airframe_2
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = heavy_mg_4x
+                    engine_type_slot = engine_3_1x
+                    special_type_slot_1 = self_sealing_fuel_tanks_small
+                    special_type_slot_2 = drop_tanks
+                    special_type_slot_3 = armor_plate_small
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = small_plane_airframe_2
+                amount = 1
+                variant_name = "Advanced Fighter"
+            }
+        }
+    }
+
+    # Super Fighter (Meta)
+    aircraft_template_super_fighter = {
+        icon = generic_air
+        cost = 35
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = advanced_small_airframe
+            has_tech = aa_cannon_1
+            has_tech = survivability_studies
+            has_tech = engines_3
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Super Fighter"
+                type = small_plane_airframe_3
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = aircraft_cannon_1_2x
+                    fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+                    engine_type_slot = engine_4_1x
+                    special_type_slot_1 = self_sealing_fuel_tanks_small
+                    special_type_slot_2 = drop_tanks
+                    special_type_slot_3 = armor_plate_small
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = small_plane_airframe_3
+                amount = 1
+                variant_name = "Super Fighter"
+            }
+        }
+    }
+
+    # Jet Fighter (Meta)
+    aircraft_template_jet_fighter = {
+        icon = generic_air
+        cost = 40
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = sp_centrifugal_jet_tech
+            has_tech = advanced_small_airframe
+            has_tech = aa_cannon_2
+            has_tech = survivability_studies
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Jet Fighter"
+                type = small_plane_airframe_3
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = aircraft_cannon_2_2x
+                    engine_type_slot = jet_engine_1x
+                    special_type_slot_1 = self_sealing_fuel_tanks_small
+                    special_type_slot_2 = drop_tanks
+                    special_type_slot_3 = armor_plate_small
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = small_plane_airframe_3
+                amount = 1
+                variant_name = "Jet Fighter"
+            }
+        }
+    }
+
+    # Close Air Support (Meta)
+    aircraft_template_cas = {
+        icon = generic_air
+        cost = 30
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = basic_small_airframe
+            has_tech = early_bombs
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Close Air Support"
+                type = small_plane_cas_airframe_1
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = bomb_locks
+                    fixed_auxiliary_weapon_slot_1 = nothing
+                    engine_type_slot = engine_2_1x
+                    special_type_slot_1 = light_defense_turret
+                    special_type_slot_2 = dive_brakes_small
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = small_plane_cas_airframe_1
+                amount = 1
+                variant_name = "Close Air Support"
+            }
+        }
+    }
+
+    # Advanced CAS (Meta)
+    aircraft_template_advanced_cas = {
+        icon = generic_air
+        cost = 35
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = improved_small_airframe
+            has_tech = heavy_bombs
+            has_tech = survivability_studies
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Advanced CAS"
+                type = small_plane_cas_airframe_2
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = bomb_locks
+                    fixed_auxiliary_weapon_slot_1 = small_bomb_bay
+                    fixed_auxiliary_weapon_slot_2 = small_bomb_bay
+                    engine_type_slot = engine_3_1x
+                    special_type_slot_1 = dive_brakes_small
+                    special_type_slot_2 = armor_plate_small
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = small_plane_cas_airframe_2
+                amount = 1
+                variant_name = "Advanced CAS"
+            }
+        }
+    }
+
+    # Tactical Bomber (Meta)
+    aircraft_template_tactical_bomber = {
+        icon = generic_air
+        cost = 35
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = basic_medium_airframe
+            has_tech = early_bombs
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Tactical Bomber"
+                type = medium_plane_airframe_1
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = medium_bomb_bay
+                    special_type_slot_1 = bomb_sights_1
+                    engine_type_slot = engine_2_2x
+                    special_type_slot_2 = self_sealing_fuel_tanks_medium
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = medium_plane_airframe_1
+                amount = 1
+                variant_name = "Tactical Bomber"
+            }
+        }
+    }
+
+    # Heavy Tactical Bomber (Meta)
+    aircraft_template_heavy_tactical_bomber = {
+        icon = generic_air
+        cost = 45
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = improved_medium_airframe
+            has_tech = heavy_bombs
+            has_tech = engines_2
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Heavy Tactical Bomber"
+                type = medium_plane_airframe_2
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = large_bomb_bay
+                    special_type_slot_1 = bomb_sights_2
+                    engine_type_slot = engine_3_2x
+                    special_type_slot_2 = self_sealing_fuel_tanks_medium
+                    special_type_slot_3 = hmg_defense_turret
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = medium_plane_airframe_2
+                amount = 1
+                variant_name = "Heavy Tactical Bomber"
+            }
+        }
+    }
+
+    # Strategic Bomber (Meta)
+    aircraft_template_strategic_bomber = {
+        icon = generic_air
+        cost = 50
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = basic_large_airframe
+            has_tech = engines_2
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Strategic Bomber"
+                type = large_plane_airframe_1
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = large_bomb_bay
+                    special_type_slot_1 = bomb_sights_1
+                    engine_type_slot = engine_2_4x
+                    special_type_slot_2 = self_sealing_fuel_tanks_large
+                    special_type_slot_3 = hmg_defense_turret
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = large_plane_airframe_1
+                amount = 1
+                variant_name = "Strategic Bomber"
+            }
+        }
+    }
+
+    # Heavy Strategic Bomber (Meta)
+    aircraft_template_heavy_strategic_bomber = {
+        icon = generic_air
+        cost = 60
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+
+        available = {
+            has_tech = improved_large_airframe
+            has_tech = heavy_bombs
+            has_tech = engines_3
+            has_tech = survivability_studies
+            has_dlc = "By Blood Alone"
+        }
+
+        visible = {
+            has_dlc = "By Blood Alone"
+        }
+
+        complete_effect = {
+            create_equipment_variant = {
+                name = "Heavy Strategic Bomber"
+                type = large_plane_airframe_2
+                parent_version = 0
+                modules = {
+                    fixed_main_weapon_slot = large_bomb_bay
+                    special_type_slot_1 = bomb_sights_2
+                    engine_type_slot = engine_3_4x
+                    special_type_slot_2 = self_sealing_fuel_tanks_large
+                    special_type_slot_3 = hmg_defense_turret_2x
+                    special_type_slot_4 = lmg_defense_turret_2x
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = large_plane_airframe_2
+                amount = 1
+                variant_name = "Heavy Strategic Bomber"
+            }
+        }
+    }
+}

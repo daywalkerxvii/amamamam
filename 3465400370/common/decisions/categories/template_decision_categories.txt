@@ -1,0 +1,7 @@
+division_templates = {
+	icon = category_generic
+	priority = 0
+	visible = {
+		always = yes
+	}
+}
